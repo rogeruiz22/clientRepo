@@ -9,6 +9,6 @@ jobs:
       - id: foo
         uses: rogeruiz22/frameworkRepo@v1
         with:
-          who-to-greet: 'Roger Ruiz'
+          who-to-greet: 'Roger Luis Ruiz Mahr'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
